@@ -6,7 +6,7 @@ body, h1, h2, h3, p {
 
 /* Apply a background color to the body */
 body {
-    background-color: #f2f2f2;
+    background-color: #302d2d;
     font-family: Arial, sans-serif;
 }
 
@@ -41,7 +41,7 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -78,4 +78,24 @@ footer {
 /* Contact info styling */
 #contact-info address {
     margin-top: 20px;
+}
+.social-media {
+    text-align: center;
+}
+
+.facebook-button,
+.instagram-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin: 10px;
+}
+
+.facebook-button {
+    background-image: url('images/facebookicon.png'); /* Replace with the actual image URL */
+}
+
+.instagram-button {
+    background-image: url('images/Instagram-Icon.png'); /* Replace with the actual image URL */
 }
