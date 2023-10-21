@@ -102,3 +102,21 @@ footer {
 .instagram-button {
     background-image: url('images/Instagram-Icon.png'); /* Replace with the actual image URL */
 }
+.book-now-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline from the link */
+}
+
+.book-now-button:hover {
+    background-color: #0056b3;
+}
