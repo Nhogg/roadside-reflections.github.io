@@ -58,8 +58,11 @@ footer {
     background-image: url('car-wash-image.jpg');
     background-size: cover;
     text-align: center;
+    height: auto;
+    width: auto;
     padding: 50px;
     color: #fff;
+    
 }
 
 #hero h2 {
