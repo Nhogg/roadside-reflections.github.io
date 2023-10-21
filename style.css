@@ -59,7 +59,8 @@ footer {
 #hero {
     background-image: url('car-wash-image.jpg');
     text-align: center;
-    
+    height: auto;
+    width: auto;
 }
 
 #hero h2 {
